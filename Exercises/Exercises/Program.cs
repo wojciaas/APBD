@@ -16,8 +16,8 @@ class Program
     static int AvarageVal(int[] arr)
     {
         int sum = 0;
-        foreach (int num in arr)
-            sum += num;
+        foreach (int n in arr)
+            sum += n;
         return sum / arr.Length;
     }
     
