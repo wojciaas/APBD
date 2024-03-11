@@ -10,4 +10,12 @@ class Program
         //AddStudent (Student stud) - C#
         Console.WriteLine("Hello, World!");
     }
+
+    int AvarageVal(int[] arr)
+    {
+        int sum = 0;
+        foreach (int num in arr)
+            sum += num;
+        return sum / arr.Length;
+    }
 }
